@@ -1,102 +1,39 @@
-body {
-    background-image: url("/star-field-2294797_1280.jpg");
+html {
+    background-color: black;
+    background-image: url("star-field.jpg");
 }
 
-h1 {
+#top {
+    border: 2px outset white;
+    width: 1000px;
     text-align: center;
-    font-family: 'Share Tech Mono', monospace;
-    font-size: 70px;
+    margin: auto;
+    color:white;
+    background-color: black;
 }
 
-div {
-    display: flex;
-	justify-content: center;
+#buttons {
+    margin: auto;
+    text-align: center;
 }
 
-.lol {
-	margin: 5px;
+a {
+    background-color: black;
+    color: white;
+    width: 100px;
+    height: 50px;
+    font-size: 20px;
+    cursor: pointer;
+    margin: 1rem;
+    padding: 1rem;
+    border:2px outset white;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 1rem;
 }
 
-p {
-	/* text-align: center; */
-	
-}
-
-.computer {
-	background: url("/icons/comp.gray.png") no-repeat;
-	width: 65px;
-	height: 65px;
-}
-
-#div1 {
-	border-top: solid 2px green;
-	border-bottom: solid 2px green;
-}
-
-#center {
-	text-align: center;
-	display: flex;
-}
-
-/*
-. for class 
-# for id
-*/
-
-.lol2 {
-	background: red;
-	height: 100%;
-	width: 100px;
-	font-size: 30px;
-	font-family: 'Share Tech Mono', monospace;
-}
-
-.lol2:hover {
-	background: white;
-	cursor: pointer;
-}
-
-.lol3 {
-	background: red;
-	height: 100%;
-	width: 180px;
-	font-size: 30px;
-	font-family: 'Share Tech Mono', monospace;
-}
-
-.lol3:hover {
-	background: white;
-	cursor: pointer;
-	height: 100%;
-	width: 180px;
-}
-
-.lol4 {
-	background: red;
-	height: 100%;
-	width: 150px;
-	font-size: 30px;
-	font-family: 'Share Tech Mono', monospace;
-}
-
-.lol4:hover {
-	background: white;
-	cursor: pointer;
-}
-
-.lol5 {
-	background: red;
-	height: 100%;
-	width: 130px;
-	font-size: 30px;
-	font-family: 'Share Tech Mono', monospace;
-}
-
-.lol5:hover {
-	background: white;
-	cursor: pointer;
-}
-
-#content {
-	color: Red;
+a:hover {
+    transition: 0.5s;
+    background-color: white;
+    color: black;
 }
