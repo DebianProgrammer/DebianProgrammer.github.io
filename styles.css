@@ -1,0 +1,56 @@
+.center {
+	position:absolute;
+	top:50%;
+	left:50%;
+	margin-top:-260px;  
+	margin-left:-150px;
+}
+
+@font-face {
+    font-family: 'Terminus';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Terminus'), url('https://debianprogrammer.github.io/TerminusTTF-4.49.1.ttf') format('truetype');
+}
+
+.buttons {
+	position:absolute;
+	top:50%;
+	left:50%;
+	margin-top:20px;
+	margin-left:-140px;
+}
+
+#mb {
+	color: white;
+	cursor: pointer;
+	padding: 1rem;
+	border:2px outset;
+	text-decoration: none;
+	text-align: center;
+	border-radius: 1rem;
+	transition: 0.5s;
+}
+
+#mb:hover {
+	background: black;
+}
+
+html {
+	background-image: linear-gradient(to right, #000000, #5e81ac);
+	color: white;
+	font-weight: bold;
+	overflow: hidden;
+	font-family: "Terminus";
+	font-size: 4px;
+}
+
+.footer {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	color: black;
+	text-align: center;
+	border: none;
+}
